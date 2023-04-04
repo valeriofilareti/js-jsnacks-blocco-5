@@ -27,15 +27,6 @@ const users = [
 ]
 
 
-// const utenti = [];
-
-// console.log(users);
-// console.log(utenti);
-
-// users.forEach((utente) => {
-//   utenti.push(utente)
-// })
-
 const utentiOver = users.filter((persona) =>{
   if(persona.età >= 60) return true;
   return false;
